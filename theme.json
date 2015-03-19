@@ -1,0 +1,25 @@
+{
+  "about": {
+    "name": "Mozu MailChimp Widgets",
+    "extends": "core6",
+    "isDesktop": true,
+    "isMobile": false,
+    "version": "0.1.0"
+  },
+  "pageTypes": [],
+  "widgets": [
+  {
+    "id":"mailchimp_ecommerce_360",
+    "displayName":"Mailchimp Ecommerce 360",
+    "displayTemplate":"misc/mailchimp-ecommerce",
+    "icon":"/resources/admin/widgets/icon-mailchimp-capture.png",
+    "validPageTypes":["*"]
+  },
+  {
+    "id":"mailchimp_ecommerce_360_checkout",
+    "displayName":"Mailchimp Ecommerce 360 Checkout",
+    "displayTemplate":"misc/mailchimp-ecommerce-checkout",
+    "icon":"/resources/admin/widgets/icon-mailchimp-tracker.png",
+    "validPageTypes":["order"]
+  }]
+}
